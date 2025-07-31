@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Pybricks / dev
+pipx_venvs/
+.pybricks/
+pybricks.json
+
+# Compiled / temp
+*.mpy
+*.bin
+*.hex
+build/
+dist/
+upload/
+firmware/

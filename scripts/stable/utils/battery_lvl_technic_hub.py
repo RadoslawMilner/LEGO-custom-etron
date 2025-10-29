@@ -11,4 +11,4 @@ voltage = hub.battery.voltage()
 percent = int((voltage - 6000) / (8400 - 6000) * 100)
 percent = max(0, min(100, percent))  # Clamp between 0 and 100
 
-print(f"{percent}/100")
+print(f"percent {percent}/100")

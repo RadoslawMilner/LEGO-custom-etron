@@ -1,45 +1,64 @@
 # LEGO Custom Audi RS Q e-tron
 
-Welcome to the development repository for my custom-built LEGO Audi RS Q e-tron variant. This project explores different motorized drivetrain and steering configurations using LEGO Powered Up components and Pybricks firmware.
+Custom LEGO Audi RS Q e-tron project powered by **Pybricks** firmware.  
+This repository explores and documents various drivetrain and steering concepts for LEGO Technic vehicles — from proven stable builds to experimental prototypes.
 
-## Repository Structure
+---
 
-- **/stable/**  
-  Verified and working programs used in completed builds.  
-  Reliable for reuse, demonstration, and driving.
+## Structure
 
-- **/experimental/**  
-  Concepts, early-stage ideas, and untested programs.  
-  For iteration and future development.
+- **[`stable/`](stable/)** — Tested and verified programs.  
+  Reliable for reuse, demo, and everyday driving.
 
-## Key Features
+- **[`experimental/`](experimental/)** — Prototypes and unfinished concepts.  
+  Used for testing ideas and mechanical setups.
 
-- Full support for 4-motor direct-drive (skid-steer and hybrid) setups
-- Remote control with LEGO 88010 remote
-- Track and wheel variants
-- Modular design with acceleration, turning logic, and hub battery feedback
-- Built and tested with Pybricks on LEGO Technic Hub
+---
 
-## Requirements
+## Highlights
+
+- Multiple drive configurations: 2× rear, 4×4, half-skid, and tracked
+- Smooth acceleration control and turning logic
+- Support for LEGO 88010 Remote and Xbox Controller
+- Battery monitoring for LEGO Technic Hub
+- Modular, readable Python code compatible with Pybricks
+
+---
+
+## Hardware & Requirements
 
 - LEGO Technic Hub (Control+ / 4-port)
-- LEGO 88010 Remote
-- Pybricks firmware
-- LEGO motors (L or XL) depending on configuration
-- LEGO wheels and/or tracks
+- LEGO L or XL motors
+- LEGO 88010 Remote *(default)*
+- Xbox Controller *(optional, supported in selected builds)*
+- Pybricks firmware installed on Hub
+- Wheels or tracks depending on variant
 
-## Getting Started
+---
 
-1. Flash your Technic Hub with [Pybricks](https://code.pybricks.com)
-2. Clone this repository
-3. Upload any script from /stable to your Hub using Pybricks Code or your preferred method (e.g., terminal, console).
-4. Control with the 88010 remote and enjoy
+## Usage
+
+1. Flash your Technic Hub with [Pybricks firmware](https://code.pybricks.com)  
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/lego-etron.git
+   cd lego-etron
+3. Choose a program from stable/
+4. Upload it via Pybricks Code or run: pybricksdev run ble -n "Audi RS Q e-tron" .scripts/stable/drives/<script>.py
+
+---
+
+## Documentation
+
+See:
+	•	Stable builds →￼
+	•	Experimental prototypes →￼
+
+---
 
 ## Status
 
-Project is active. Currently driving and testing multiple variants, including:
-- 4WD full skid steering (option 7) — **working**
-- Rear drive with front passive wheel steering — **in development**
+🚗 Actively developed — multiple configurations tested and iterated.
 
 ## License
 

@@ -7,10 +7,12 @@ This repository explores and documents various drivetrain and steering concepts 
 
 ## Structure
 
-- **[`stable/`](stable/)** — Tested and verified programs.  
+https://github.com/RadoslawMilner/LEGO-custom-etron/tree/main/scripts/experimental
+
+- **[`stable/`](scripts/stable/)** — Tested and verified programs.
   Reliable for reuse, demo, and everyday driving.
 
-- **[`experimental/`](experimental/)** — Prototypes and unfinished concepts.  
+- **[`experimental/`](scripts/experimental/)** — Prototypes and unfinished concepts.  
   Used for testing ideas and mechanical setups.
 
 ---

@@ -55,8 +55,8 @@ This repository explores and documents various drivetrain and steering concepts 
 ## Documentation
 
 See:
-	•	Stable builds →￼
-	•	Experimental prototypes →￼
+  •	**[Stable builds →￼](scripts/stable/)**
+  •	**[Experimental prototypes →￼](scripts/experimental/)**
 
 ---
 

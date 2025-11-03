@@ -11,10 +11,10 @@ This repository explores and documents various drivetrain and steering concepts 
 
 ## Structure
 
-- **[`stable/`](scripts/stable/)** — Tested and verified programs.
+- **[`Stable builds`](scripts/stable/)** — Tested and verified programs.
   Reliable for reuse, demo, and everyday driving.
 
-- **[`experimental/`](scripts/experimental/)** — Prototypes and unfinished concepts.  
+- **[`Experimental prototypes`](scripts/experimental/)** — Prototypes and unfinished concepts.  
   Used for testing ideas and mechanical setups.
 
 ---
@@ -55,8 +55,9 @@ This repository explores and documents various drivetrain and steering concepts 
 ## Documentation
 
 See:
-  •	**[Stable builds →￼](scripts/stable/)**
-  •	**[Experimental prototypes →￼](scripts/experimental/)**
+
+- **[`Stable builds`](scripts/stable/)**
+- **[`Experimental prototypes`](scripts/experimental/)**
 
 ---
 

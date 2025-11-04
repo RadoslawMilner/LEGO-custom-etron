@@ -1,11 +1,18 @@
 # LEGO Custom Audi RS Q e-tron
 
 <p align="center">
-  <img src="./assets/four_on_four_drive_in_wheels_motors.jpg" width="600" alt="LEGO four on four drive in wheels motors">
+  <img src="./assets/custom_etron_demo.gif" alt="custom e-tron demo" width="600">
 </p>
 
-Custom LEGO Audi RS Q e-tron project powered by **Pybricks** firmware.  
-This repository explores and documents various drivetrain and steering concepts for LEGO Technic vehicles — from proven stable builds to experimental prototypes.
+<p align="center">
+  Custom LEGO Audi RS Q e-tron project powered by **Pybricks** firmware.<br>
+  This repository explores and documents various drivetrain and steering concepts for LEGO Technic vehicles.<br>
+  From proven stable builds to experimental prototypes.
+</p>
+
+<p align="center">
+  <img src="./assets/four_on_four_drive_in_wheels_motors.jpg" width="600" alt="LEGO four on four drive in wheels motors">
+</p>
 
 ---
 
@@ -68,6 +75,12 @@ See:
 ## License
 
 MIT
+
+---
+
+<p align="center">
+  <img src="./assets/custom_blue_demo.gif" alt="custom blue demo" width="600">
+</p>
 
 ---
 

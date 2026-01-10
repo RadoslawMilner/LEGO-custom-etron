@@ -7,7 +7,7 @@ Use with caution — they may require non-standard builds or wiring setups.
 
 ## Work-in-Progress Concepts
 
-### 1. `2x_rear_2x_steering_acceleration.py`
+### 1. `four_by_four_half_skid_accel.py`
 Concept for **independent dual-front-fork steering**:
 - 2× rear drive motors  
 - 2× front steering motors  
@@ -15,7 +15,7 @@ Concept for **independent dual-front-fork steering**:
 
 ---
 
-### 2. `3x_rear_steering_acceleration.py`
+### 2. `three_rear_steer_accel.py`
 Triple-rear differential experiment:
 - 3× rear drive motors connected via differential  
 - 1× front steering motor  
@@ -23,7 +23,7 @@ Triple-rear differential experiment:
 
 ---
 
-### 3. `4x4_with_half_skid_with_acceleration.py`
+### 3. `two_rear_two_steer_accel.py`
 Hybrid **half-skid steering** setup:
 - 4×4 drive  
 - Only front axle turns, with torsion and shock absorbers  

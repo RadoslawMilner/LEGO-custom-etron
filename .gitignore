@@ -28,3 +28,6 @@ build/
 dist/
 upload/
 firmware/
+
+# command init
+command_init.md

@@ -1,11 +1,11 @@
-# LEGO Custom Audi RS Q e-tron
+# LEGO Custom E-Tron
 
 <p align="center">
   <img src="./assets/custom_etron/basic_demo.gif" alt="custom e-tron demo" width="600">
 </p>
 
 <p align="center">
-  Custom LEGO Audi RS Q e-tron project powered by **Pybricks** firmware.<br>
+  Custom LEGO E-Tron project powered by **Pybricks** firmware.<br>
   This repository explores and documents various drivetrain and steering concepts for LEGO Technic vehicles.<br>
   From proven stable builds to experimental prototypes.
 </p>
@@ -18,11 +18,9 @@
 
 ## Structure
 
-- **[`Stable builds`](scripts/stable/)** — Tested and verified programs.
-  Reliable for reuse, demo, and everyday driving.
+- **[`Stable builds`](scripts/stable/)** — Tested and verified programs. Reliable for reuse, demo, and everyday driving.
 
-- **[`Experimental prototypes`](scripts/experimental/)** — Prototypes and unfinished concepts.  
-  Used for testing ideas and mechanical setups.
+- **[`Experimental prototypes`](scripts/experimental/)** — Prototypes and unfinished concepts. Used for testing ideas and mechanical setups.
 
 ---
 

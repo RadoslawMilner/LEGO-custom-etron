@@ -1,7 +1,7 @@
 # LEGO Custom E-Tron
 
 <p align="center">
-  <img src="./assets/custom_etron/basic_demo.gif" alt="custom e-tron demo" width="600">
+  <img src="./assets/custom_etron/four_wheel_drive/dual_hubs/demo.gif" alt="custom e-tron demo" width="600">
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/custom_etron/basic_four_wheel_drive.jpg" width="600" alt="LEGO four on four drive in wheels motors">
+  <img src="./assets/custom_etron/four_wheel_drive/dual_hubs/preview.jpg" width="600" alt="LEGO four on four drive in wheels motors">
 </p>
 
 ---
@@ -26,9 +26,10 @@
 
 ## Highlights
 
-- Multiple drive configurations: 2× rear, 4×4, half-skid, and tracked
+- Multiple drive configurations: 2× rear, front steer, 4×4, half-skid, and tracked
 - Smooth acceleration control and turning logic
 - Support for LEGO 88010 Remote and Xbox Controller
+- Dual Technic Hub setup with Xbox Controller (BLE broadcast)
 - Battery monitoring for LEGO Technic Hub
 - Modular, readable Python code compatible with Pybricks
 

@@ -51,6 +51,27 @@ Measures speed without any controller.
 
 ---
 
+### 7. `dual hubs`
+Dual Technic Hub setup with Xbox Controller (BLE broadcast)
+→ Advanced version of the skid-steer drive using two LEGO Technic Hubs communicating via BLE broadcast.
+
+Architecture:
+	-	Master Hub (rear)
+	-	Handles Xbox Controller input
+	-	Computes skid-steer logic and acceleration ramps
+	-	Broadcasts control commands over BLE
+	-	Drives rear axle motors
+	-	Slave Hub (front)
+	-	Listens to BLE broadcast
+	-	Executes received commands
+	-	Drives front axle motors
+
+Controls:
+	-	Left joystick → steering (skid steering)
+	-	Triggers → throttle / brake
+
+---
+
 ## Notes
 
 - All programs assume **LEGO 88010 Remote** by default  

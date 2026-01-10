@@ -1,13 +1,13 @@
 # Stable Programs
 
 This directory contains **verified and tested Pybricks programs** for LEGO Technic builds.  
-All scripts in this folder are safe to use and have been driven on a real LEGO Audi RS Q e-tron (or compatible chassis).
+All scripts in this folder are safe to use.
 
 ---
 
 ## Available Programs
 
-### 1. `2x_rear_1x_steering_acceleration.py`
+### 1. `two_rear_one_steer_accel.py`
 Simple and robust setup:
 - 2× rear direct-drive motors  
 - 1× front steering motor  
@@ -16,7 +16,13 @@ Simple and robust setup:
 
 ---
 
-### 2. `tracks_skid_steer_acceleration.py`
+### 2. `tracks_skid_steer.py`
+Minimal version without acceleration ramping.  
+→ Use for quick testing or baseline comparison.
+
+---
+
+### 3. `tracks_skid_steer_accel.py`
 Classic **tank-style** drive:
 - 4× motors for full skid-steer  
 - Independent side control  
@@ -25,17 +31,11 @@ Classic **tank-style** drive:
 
 ---
 
-### 3. `tracks_skid_steer_acceleration_xbox.py`
+### 4. `tracks_skid_steer_accel_xbox.py`
 Same as above but with **Xbox Controller** input:
 - Left joystick → steering  
 - Triggers → throttle/brake  
 → Perfect for precision control and fun driving.
-
----
-
-### 4. `tracks_skid_steer.py`
-Minimal version without acceleration ramping.  
-→ Use for quick testing or baseline comparison.
 
 ---
 
@@ -57,4 +57,4 @@ Measures speed without any controller.
   (Xbox variants explicitly mention controller support).  
 - Upload via Pybricks Code or command line:
   ```bash
-  pybricksdev run ble -n "Audi RS Q e-tron" ./<filename>.py
+  pybricksdev run ble -n "Your hub name" ./<filename>.py

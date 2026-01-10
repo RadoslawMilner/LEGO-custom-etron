@@ -1,7 +1,7 @@
 # LEGO Custom Audi RS Q e-tron
 
 <p align="center">
-  <img src="./assets/custom_etron_demo.gif" alt="custom e-tron demo" width="600">
+  <img src="./assets/custom_etron/basic_demo.gif" alt="custom e-tron demo" width="600">
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/four_on_four_drive_in_wheels_motors.jpg" width="600" alt="LEGO four on four drive in wheels motors">
+  <img src="./assets/custom_etron/basic_four_wheel_drive.jpg" width="600" alt="LEGO four on four drive in wheels motors">
 </p>
 
 ---
@@ -55,7 +55,7 @@
    git clone https://github.com/<your-username>/lego-etron.git
    cd lego-etron
 3. Choose a program from stable/
-4. Upload it via Pybricks Code or run: pybricksdev run ble -n "Audi RS Q e-tron" .scripts/stable/drives/<script>.py
+4. Upload it via Pybricks Code or run: pybricksdev run ble -n "Your hub name" .scripts/stable/drives/<script>.py
 
 ---
 
@@ -79,7 +79,7 @@ MIT
 ---
 
 <p align="center">
-  <img src="./assets/custom_blue_demo.gif" alt="custom blue demo" width="600">
+  <img src="./assets/custom_blue/demo.gif" alt="custom blue demo" width="600">
 </p>
 
 ---

@@ -9,7 +9,6 @@ from pybricks.tools import wait, StopWatch
 # Motors
 rear_left = Motor(Port.B, Direction.COUNTERCLOCKWISE)
 rear_right = Motor(Port.A, Direction.CLOCKWISE)
-front = Motor(Port.D, Direction.CLOCKWISE)  # Optional: plug/unplug for testing
 
 # Reset angles
 rear_left.reset_angle(0)

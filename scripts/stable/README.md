@@ -7,7 +7,7 @@ All scripts in this folder are safe to use.
 
 ## Available Programs
 
-### 1. `two_rear_one_steer_accel.py`
+### 1. `drives/two_rear_one_steer_accel.py`
 Simple and robust setup:
 - 2× rear direct-drive motors  
 - 1× front steering motor  
@@ -16,22 +16,20 @@ Simple and robust setup:
 
 ---
 
-### 2. `tracks_skid_steer.py`
-Minimal version without acceleration ramping.  
-→ Use for quick testing or baseline comparison.
-
----
-
-### 3. `tracks_skid_steer_accel.py`
+### 2. `drives/tracks_skid_steer/basic.py`
 Classic **tank-style** drive:
 - 4× motors for full skid-steer  
 - Independent side control  
-- Integrated acceleration smoothing  
 → Best for tracked vehicles.
 
 ---
 
-### 4. `tracks_skid_steer_accel_xbox.py`
+### 3. `drives/tracks_skid_steer/accel.py`
+Same as above but with integrated acceleration smoothing
+
+---
+
+### 4. `drives/tracks_skid_steer/accel_xbox.py`
 Same as above but with **Xbox Controller** input:
 - Left joystick → steering  
 - Triggers → throttle/brake  
@@ -39,38 +37,42 @@ Same as above but with **Xbox Controller** input:
 
 ---
 
-### 5. `battery_lvl_technic_hub.py`
-Outputs **Technic Hub battery level** to terminal.  
-> ⚠ Works only with Technic Hub.
+### 5. `drives/tracks_skid_steer/dual_hubs/accel_xbox_(master+slave).py`
+Skid-steer drive with acceleration – dual Technic Hub architecture (Xbox Controller, BLE broadcast)
+→ Advanced version of the skid-steer drive using two LEGO Technic Hubs communicating via BLE broadcast.
+
+This implementation consists of two cooperating scripts that must run together:
+-	accel_xbox_master.py – rear hub
+-	accel_xbox_slave.py – front hub
+
+The description below refers to both files as a single system.
+
+Responsibilities:
+-	Master hub (rear)
+-	Reads Xbox Controller input
+-	Computes skid-steer + acceleration ramp
+-	Broadcasts control values via BLE
+-	Drives rear track motors
+-	Slave hub (front)
+-	Listens for BLE broadcast
+-	Mirrors received motor commands
+-	Drives front track motors
+
+Controls:
+-	Left joystick → steering (skid steering)
+-	Triggers → throttle / brake
 
 ---
 
-### 6. `test_speed_only_forward_NO_REMOTE.py`
+### 6. `tests/test_speed_only_forward_NO_REMOTE.py`
 Measures speed without any controller.  
 → Ideal for verifying gearing ratios and drivetrain performance.
 
 ---
 
-### 7. `dual hubs`
-Dual Technic Hub setup with Xbox Controller (BLE broadcast)
-→ Advanced version of the skid-steer drive using two LEGO Technic Hubs communicating via BLE broadcast.
-
-Architecture:
-	-	Master Hub (rear)
-	-	Handles Xbox Controller input
-	-	Computes skid-steer logic and acceleration ramps
-	-	Broadcasts control commands over BLE
-	-	Drives rear axle motors
-	-	Slave Hub (front)
-	-	Listens to BLE broadcast
-	-	Executes received commands
-	-	Drives front axle motors
-
-Controls:
-	-	Left joystick → steering (skid steering)
-	-	Triggers → throttle / brake
-
----
+### 7. `utils/battery_lvl_technic_hub.py`
+Outputs **Technic Hub battery level** to terminal.  
+> ⚠ Works only with Technic Hub.
 
 ## Notes
 

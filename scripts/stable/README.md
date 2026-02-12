@@ -24,12 +24,12 @@ Classic **tank-style** drive:
 
 ---
 
-### 3. `drives/tracks_skid_steer/accel.py`
+### 3. `drives/tracks_skid_steer/with_acceration/basic.py`
 Same as above but with integrated acceleration smoothing
 
 ---
 
-### 4. `drives/tracks_skid_steer/accel_xbox.py`
+### 4. `drives/tracks_skid_steer/with_acceration/xbox.py`
 Same as above but with **Xbox Controller** input:
 - Left joystick → steering  
 - Triggers → throttle/brake  
@@ -37,13 +37,13 @@ Same as above but with **Xbox Controller** input:
 
 ---
 
-### 5. `drives/tracks_skid_steer/dual_hubs/accel_xbox_(master+slave).py`
+### 5. `drives/tracks_skid_steer/with_acceration/dual_hubs/xbox_(master+slave).py`
 Skid-steer drive with acceleration – dual Technic Hub architecture (Xbox Controller, BLE broadcast)
 → Advanced version of the skid-steer drive using two LEGO Technic Hubs communicating via BLE broadcast.
 
 This implementation consists of two cooperating scripts that must run together:
--	accel_xbox_master.py – rear hub
--	accel_xbox_slave.py – front hub
+-	xbox_master.py – rear hub
+-	xbox_slave.py – front hub
 
 The description below refers to both files as a single system.
 

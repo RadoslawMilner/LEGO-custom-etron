@@ -38,7 +38,7 @@
 ## Hardware & Requirements
 
 - LEGO Technic Hub (Control+ / 4-port)
-- LEGO L or XL motors
+- LEGO L or Large Angular motors
 - LEGO 88010 Remote *(default)*
 - Xbox Controller *(optional, supported in selected builds)*
 - Pybricks firmware installed on Hub

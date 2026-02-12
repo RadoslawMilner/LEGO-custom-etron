@@ -64,13 +64,41 @@ Controls:
 
 ---
 
-### 6. `tests/test_speed_only_forward_NO_REMOTE.py`
+### 6. `drives/tracks_skid_steer/with_acceration/dual_hubs/dump_loader/xbox_(master+slave).py`
+4x4 skid-steer dump loader with acceleration – dual Technic Hub setup (Xbox Controller, BLE broadcast)
+→ Advanced version of above with loader and tub.
+
+This implementation uses two cooperating LEGO Technic Hubs running separate scripts that communicate via BLE:
+-	xbox_master.py – rear hub
+-	xbox_slave.py – front hub
+
+The description below refers to both files as a single system.
+
+Responsibilities:
+-	Master hub (rear):
+-	Reads Xbox Controller input
+-	Computes skid-steer with acceleration ramp
+-	Sends bucket (front loader) and tub (rear tub) step commands via BLE
+-	Drives rear track motors
+-	Slave hub (front):
+-	Receives BLE broadcast from master
+-	Executes bucket and tub movements
+-	Drives front track motors
+
+Controls:
+-	Left joystick → steering (X) and throttle/brake (Y) for skid-steer drive
+-	Triggers → analog control of bucket (front loader)
+-	Bumpers → digital control of tub (rear dump)
+
+---
+
+### 7. `tests/test_speed_only_forward_NO_REMOTE.py`
 Measures speed without any controller.  
 → Ideal for verifying gearing ratios and drivetrain performance.
 
 ---
 
-### 7. `utils/battery_lvl_technic_hub.py`
+### 8. `utils/battery_lvl_technic_hub.py`
 Outputs **Technic Hub battery level** to terminal.  
 > ⚠ Works only with Technic Hub.
 

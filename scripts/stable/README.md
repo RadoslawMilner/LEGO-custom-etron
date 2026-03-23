@@ -64,7 +64,7 @@ Controls:
 
 ---
 
-### 6. `drives/tracks_skid_steer/with_acceration/dual_hubs/dump_loader/xbox_(master+slave).py`
+### 6. `drives/tracks_skid_steer/with_acceration/dual_hubs/loader-dump_truck/xbox_(master+slave).py`
 4x4 skid-steer dump loader with acceleration – dual Technic Hub setup (Xbox Controller, BLE broadcast)
 → Advanced version of above with loader and tub.
 
@@ -86,9 +86,10 @@ Responsibilities:
 -	Drives front track motors
 
 Controls:
--	Left joystick → steering (X) and throttle/brake (Y) for skid-steer drive
--	Triggers → analog control of bucket (front loader)
--	Bumpers → digital control of tub (rear dump)
+-	Left joystick → steering (skid steering)
+-	Triggers → throttle / brake
+- D-pad → up / down front loader
+-	Buttons A & B → up / down rear tub
 
 ---
 

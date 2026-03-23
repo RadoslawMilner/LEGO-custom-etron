@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/custom_etron/four_wheel_drive/dual_hubs/preview.jpg" width="600" alt="LEGO four on four drive in wheels motors">
+  <img src="./assets/custom_etron/four_wheel_drive/dual_hubs/loader-dump_truck/preview.jpg" width="600" alt="LEGO four on four drive in wheels motors">
 </p>
 
 ---

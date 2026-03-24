@@ -1,7 +1,7 @@
 # LEGO Custom E-Tron
 
 <p align="center">
-  <img src="./assets/custom_etron/four_wheel_drive/dual_hubs/demo.gif" alt="custom e-tron demo" width="600">
+  <img src="./assets/custom_etron/four_wheel_drive/dual_hubs/loader-dump_truck/demo.gif" alt="custom e-tron demo" width="600">
 </p>
 
 <p align="center">
